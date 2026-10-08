@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Internal Campus IT HelpDesk System
 
-## Getting Started
+## Team Member 
+Wai Yan Thet Min 
+Thaw Phone Thant 
 
-First, run the development server:
+## Github Repo
+Link - https://github.com/kevindjr/HelpDesk_WAD.git
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Campus IT Helpdesk** is a web-based IT support ticket management system designed for use within a university campus.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The system allows students to submit IT support tickets when they experience technical problems. Users can provide information such as the problem title, description, category, and priority. Students can also view their tickets, track their status, and communicate with technicians through comments.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Technicians can view assigned support tickets, respond to student comments, update ticket information such as priority and status, and manage the progress of IT support requests.
 
-## Learn More
+The system provides a simple role-based interface with two main roles:
 
-To learn more about Next.js, take a look at the following resources:
+* **Student** – Create and manage support tickets, view ticket status, and communicate with technicians.
+* **Technician** – View support tickets, respond to students, and update ticket status and priority.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Main Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Create, view, update, and delete IT support tickets
+* Organize tickets by categories
+* Add and manage comments on tickets
+* Set and update ticket priority
+* Track ticket status
+* Student and Technician role interfaces
+* Dashboard for viewing ticket information
+* REST API for system operations
+* Persistent data storage using MongoDB
 
-## Deploy on Vercel
+### Technologies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **Next.js** – Frontend and backend/API
+* **MongoDB** – Database
+* **Mongoose** – MongoDB object modeling
+* **JavaScript** – Application development
+* **Docker** – Application containerization
+* **Nginx** – Reverse proxy
+* **Azure Virtual Machine** – Production deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Data Models
+
+The system uses three main data entities:
+
+1. **Ticket**
+
+   * Title
+   * Description
+   * Category
+   * Priority
+   * Status
+
+2. **Category**
+
+   * Category name
+
+3. **Comment**
+
+   * Comment content
+   * Related ticket
+
+These entities are managed through REST API endpoints implemented in the Next.js application.
+
+### Screenshots
+
+
+

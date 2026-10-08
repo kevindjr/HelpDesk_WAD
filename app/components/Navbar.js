@@ -72,16 +72,18 @@ export default function Navbar() {
             CATEGORIES
           </Link>
 
-          <Link
-            href="/comments"
-            className={`font-sans text-sm tracking-wider transition-colors ${
-              isActive("/comments")
-                ? "text-[#4F7DE8]"
-                : "text-[#111827] hover:text-[#4F7DE8]"
-            }`}
-          >
-            COMMENTS
-          </Link>
+          {role === "Technician" && (
+            <Link
+              href="/comments"
+              className={`font-sans text-sm tracking-wider transition-colors ${
+                isActive("/comments")
+                  ? "text-[#4F7DE8]"
+                  : "text-[#111827] hover:text-[#4F7DE8]"
+              }`}
+            >
+              COMMENTS
+            </Link>
+          )}
 
           <button
             onClick={logout}
@@ -131,13 +133,15 @@ export default function Navbar() {
               CATEGORIES
             </Link>
 
-            <Link
-              href="/comments"
-              onClick={() => setMenuOpen(false)}
-              className="font-sans text-sm tracking-wider text-[#111827]"
-            >
-              COMMENTS
-            </Link>
+            {role === "Technician" && (
+              <Link
+                href="/comments"
+                onClick={() => setMenuOpen(false)}
+                className="font-sans text-sm tracking-wider text-[#111827]"
+              >
+                COMMENTS
+              </Link>
+            )}
 
             <button
               onClick={logout}
