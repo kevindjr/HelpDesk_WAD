@@ -70,14 +70,26 @@ These entities are managed through REST API endpoints implemented in the Next.js
 ### HelpDesk Roles
 ![HelpDesk Roles](./app/assets/HelpDesk_Roles.png)
 
-### Student HelpDesk
+### Student Dashboard
 ![Student Dashboard](./app/assets/Student_Dashboard.png)
+
+### Student Ticket Create
 ![Student Ticket Create](./app/assets/Student_Create_Ticket.png)
+
+### Student Ticket View
 ![Student Ticket View](./app/assets/Student_View_Ticket.png)
+
+### Student Category View
 ![Student Category](./app/assets/Student_Category.png)
 
-### Technician HelpDesk
+### Technician Dashboard
 ![Technician Dashboard](./app/assets/Technician_Dashboard.png)
+
+### Technician Ticket Manage
 ![Technician Ticket Manage](./app/assets/Technician_Ticket_Manage.png)
+
+### Technician Category Create
 ![Technician Category Create](./app/assets/Technician_Category_Create.png)
+
+### Technician Comments
 ![Technician Comments](./app/assets/Technician_Comments.png)
