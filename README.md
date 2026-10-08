@@ -1,8 +1,8 @@
 # Internal Campus IT HelpDesk System
 
 ## Team Member 
-Wai Yan Thet Min 
 Thaw Phone Thant 
+Wai Yan Thet Min 
 
 ## Github Repo
 Link - https://github.com/kevindjr/HelpDesk_WAD.git
@@ -42,7 +42,7 @@ The system provides a simple role-based interface with two main roles:
 * **Nginx** – Reverse proxy
 * **Azure Virtual Machine** – Production deployment
 
-### Data Models
+## Data Models
 
 The system uses three main data entities:
 
@@ -65,7 +65,19 @@ The system uses three main data entities:
 
 These entities are managed through REST API endpoints implemented in the Next.js application.
 
-### Screenshots
+## Application Preview
 
+### HelpDesk Roles
+![HelpDesk Roles](./app/assets/HelpDesk_Roles.png)
 
+### Student HelpDesk
+![Student Dashboard](./app/assets/Student_Dashboard.png)
+![Student Ticket Create](./app/assets/Student_Ticket_Create.png)
+![Student Ticket View](./app/assets/Student_View_Ticket.png)
+![Student Category](./app/assets/Student_Category.png)
 
+### Technician HelpDesk
+![Technician Dashboard](./app/assets/Technician_Dashboard.png)
+![Technician Ticket Manage](./app/assets/Technician_Ticket_Manage.png)
+![Technician Category Create](./app/assets/Technician_Category_Create.png)
+![Technician Comments](./app/assets/Technician_Comments.png)
