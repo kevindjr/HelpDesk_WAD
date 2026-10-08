@@ -1,8 +1,8 @@
 # Internal Campus IT HelpDesk System
 
 ## Team Member 
-Thaw Phone Thant 
-Wai Yan Thet Min 
+* Thaw Phone Thant 
+* Wai Yan Thet Min 
 
 ## Github Repo
 Link - https://github.com/kevindjr/HelpDesk_WAD.git
