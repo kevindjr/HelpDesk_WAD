@@ -72,7 +72,7 @@ These entities are managed through REST API endpoints implemented in the Next.js
 
 ### Student HelpDesk
 ![Student Dashboard](./app/assets/Student_Dashboard.png)
-![Student Ticket Create](./app/assets/Student_Ticket_Create.png)
+![Student Ticket Create](./app/assets/Student_Create_Ticket.png)
 ![Student Ticket View](./app/assets/Student_View_Ticket.png)
 ![Student Category](./app/assets/Student_Category.png)
 
